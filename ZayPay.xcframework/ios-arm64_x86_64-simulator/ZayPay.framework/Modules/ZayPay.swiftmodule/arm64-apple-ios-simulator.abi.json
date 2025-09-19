@@ -1,0 +1,4445 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ZayPay",
+    "printedName": "ZayPay",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssetsProvider",
+        "printedName": "AssetsProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "colorsAssetsProviderType",
+            "printedName": "colorsAssetsProviderType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any ZayPay.ColorsAssetsProvider.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ColorsAssetsProvider",
+                    "printedName": "ZayPay.ColorsAssetsProvider",
+                    "usr": "s:6ZayPay20ColorsAssetsProviderP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay14AssetsProviderP06colorscD4TypeAA06ColorscD0_pXpvpZ",
+            "mangledName": "$s6ZayPay14AssetsProviderP06colorscD4TypeAA06ColorscD0_pXpvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any ZayPay.ColorsAssetsProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ColorsAssetsProvider",
+                        "printedName": "ZayPay.ColorsAssetsProvider",
+                        "usr": "s:6ZayPay20ColorsAssetsProviderP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay14AssetsProviderP06colorscD4TypeAA06ColorscD0_pXpvgZ",
+                "mangledName": "$s6ZayPay14AssetsProviderP06colorscD4TypeAA06ColorscD0_pXpvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.AssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.AssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uiConstantsProvider",
+            "printedName": "uiConstantsProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any ZayPay.UIConstantsProvider.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIConstantsProvider",
+                    "printedName": "ZayPay.UIConstantsProvider",
+                    "usr": "s:6ZayPay19UIConstantsProviderP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay14AssetsProviderP011uiConstantsD0AA011UIConstantsD0_pXpvpZ",
+            "mangledName": "$s6ZayPay14AssetsProviderP011uiConstantsD0AA011UIConstantsD0_pXpvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any ZayPay.UIConstantsProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIConstantsProvider",
+                        "printedName": "ZayPay.UIConstantsProvider",
+                        "usr": "s:6ZayPay19UIConstantsProviderP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay14AssetsProviderP011uiConstantsD0AA011UIConstantsD0_pXpvgZ",
+                "mangledName": "$s6ZayPay14AssetsProviderP011uiConstantsD0AA011UIConstantsD0_pXpvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.AssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.AssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6ZayPay14AssetsProviderP",
+        "mangledName": "$s6ZayPay14AssetsProviderP",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "AccessControl",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ColorsAssetsProvider",
+        "printedName": "ColorsAssetsProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "backgroundPrimary",
+            "printedName": "backgroundPrimary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP17backgroundPrimarySo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP17backgroundPrimarySo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP17backgroundPrimarySo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP17backgroundPrimarySo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundSecondary",
+            "printedName": "backgroundSecondary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP19backgroundSecondarySo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP19backgroundSecondarySo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP19backgroundSecondarySo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP19backgroundSecondarySo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundTertiary",
+            "printedName": "backgroundTertiary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP18backgroundTertiarySo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP18backgroundTertiarySo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP18backgroundTertiarySo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP18backgroundTertiarySo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundAttention",
+            "printedName": "backgroundAttention",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP19backgroundAttentionSo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP19backgroundAttentionSo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP19backgroundAttentionSo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP19backgroundAttentionSo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundAttentionSuccess",
+            "printedName": "backgroundAttentionSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP26backgroundAttentionSuccessSo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP26backgroundAttentionSuccessSo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP26backgroundAttentionSuccessSo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP26backgroundAttentionSuccessSo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundAttentionFailure",
+            "printedName": "backgroundAttentionFailure",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP26backgroundAttentionFailureSo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP26backgroundAttentionFailureSo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP26backgroundAttentionFailureSo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP26backgroundAttentionFailureSo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundButtonPrimary",
+            "printedName": "backgroundButtonPrimary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP23backgroundButtonPrimarySo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP23backgroundButtonPrimarySo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP23backgroundButtonPrimarySo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP23backgroundButtonPrimarySo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundButtonSecondary",
+            "printedName": "backgroundButtonSecondary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP25backgroundButtonSecondarySo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP25backgroundButtonSecondarySo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP25backgroundButtonSecondarySo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP25backgroundButtonSecondarySo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fillPrimary",
+            "printedName": "fillPrimary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP11fillPrimarySo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP11fillPrimarySo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP11fillPrimarySo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP11fillPrimarySo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fillSecondary",
+            "printedName": "fillSecondary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP13fillSecondarySo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP13fillSecondarySo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP13fillSecondarySo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP13fillSecondarySo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fillTertiary",
+            "printedName": "fillTertiary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP12fillTertiarySo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP12fillTertiarySo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP12fillTertiarySo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP12fillTertiarySo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fillButtonPrimary",
+            "printedName": "fillButtonPrimary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP17fillButtonPrimarySo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP17fillButtonPrimarySo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP17fillButtonPrimarySo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP17fillButtonPrimarySo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fillButtonSecondary",
+            "printedName": "fillButtonSecondary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP19fillButtonSecondarySo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP19fillButtonSecondarySo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP19fillButtonSecondarySo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP19fillButtonSecondarySo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textAttention",
+            "printedName": "textAttention",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP13textAttentionSo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP13textAttentionSo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP13textAttentionSo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP13textAttentionSo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textAttentionSuccess",
+            "printedName": "textAttentionSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP20textAttentionSuccessSo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP20textAttentionSuccessSo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP20textAttentionSuccessSo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP20textAttentionSuccessSo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textAttentionFailure",
+            "printedName": "textAttentionFailure",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP20textAttentionFailureSo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP20textAttentionFailureSo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP20textAttentionFailureSo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP20textAttentionFailureSo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "outline",
+            "printedName": "outline",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP7outlineSo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP7outlineSo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP7outlineSo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP7outlineSo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logo",
+            "printedName": "logo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay20ColorsAssetsProviderP4logoSo7UIColorCvpZ",
+            "mangledName": "$s6ZayPay20ColorsAssetsProviderP4logoSo7UIColorCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay20ColorsAssetsProviderP4logoSo7UIColorCvgZ",
+                "mangledName": "$s6ZayPay20ColorsAssetsProviderP4logoSo7UIColorCvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.ColorsAssetsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.ColorsAssetsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6ZayPay20ColorsAssetsProviderP",
+        "mangledName": "$s6ZayPay20ColorsAssetsProviderP",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "AccessControl",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIConstantsProvider",
+        "printedName": "UIConstantsProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "commonButtonCornerRadius",
+            "printedName": "commonButtonCornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6ZayPay19UIConstantsProviderP24commonButtonCornerRadius14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s6ZayPay19UIConstantsProviderP24commonButtonCornerRadius12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6ZayPay19UIConstantsProviderP24commonButtonCornerRadius14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s6ZayPay19UIConstantsProviderP24commonButtonCornerRadius12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "ZayPay",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZayPay.UIConstantsProvider>",
+                "sugared_genericSig": "<Self where Self : ZayPay.UIConstantsProvider>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6ZayPay19UIConstantsProviderP",
+        "mangledName": "$s6ZayPay19UIConstantsProviderP",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "AccessControl",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkBase",
+        "printedName": "NetworkBase",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkBase",
+        "printedName": "NetworkBase",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkBase",
+        "printedName": "NetworkBase",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkBase",
+        "printedName": "NetworkBase",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkBase",
+        "printedName": "NetworkBase",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkBase",
+        "printedName": "NetworkBase",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Nuke_Onside",
+        "printedName": "Nuke_Onside",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "NukeUI_Onside",
+        "printedName": "NukeUI_Onside",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseRouter",
+        "printedName": "BaseRouter",
+        "declKind": "Class",
+        "usr": "s:6ZayPay10BaseRouterC",
+        "mangledName": "$s6ZayPay10BaseRouterC",
+        "moduleName": "ZayPay",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "Custom"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "QRCode_Onside",
+        "printedName": "QRCode_Onside",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftImageReadWrite_Onside",
+        "printedName": "SwiftImageReadWrite_Onside",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Nuke_Onside",
+        "printedName": "Nuke_Onside",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Nuke_Onside",
+        "printedName": "Nuke_Onside",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Zay",
+        "printedName": "Zay",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Options",
+            "printedName": "Options",
+            "children": [
+              {
+                "kind": "TypeDecl",
+                "name": "FiatDepositInitialState",
+                "printedName": "FiatDepositInitialState",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "currency",
+                    "printedName": "currency",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:6ZayPay0A0C7OptionsV23FiatDepositInitialStateV8currencySSvp",
+                    "mangledName": "$s6ZayPay0A0C7OptionsV23FiatDepositInitialStateV8currencySSvp",
+                    "moduleName": "ZayPay",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:6ZayPay0A0C7OptionsV23FiatDepositInitialStateV8currencySSvg",
+                        "mangledName": "$s6ZayPay0A0C7OptionsV23FiatDepositInitialStateV8currencySSvg",
+                        "moduleName": "ZayPay",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:6ZayPay0A0C7OptionsV23FiatDepositInitialStateV8currencySSvs",
+                        "mangledName": "$s6ZayPay0A0C7OptionsV23FiatDepositInitialStateV8currencySSvs",
+                        "moduleName": "ZayPay",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:6ZayPay0A0C7OptionsV23FiatDepositInitialStateV8currencySSvM",
+                        "mangledName": "$s6ZayPay0A0C7OptionsV23FiatDepositInitialStateV8currencySSvM",
+                        "moduleName": "ZayPay",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "amount",
+                    "printedName": "amount",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:6ZayPay0A0C7OptionsV23FiatDepositInitialStateV6amountSdvp",
+                    "mangledName": "$s6ZayPay0A0C7OptionsV23FiatDepositInitialStateV6amountSdvp",
+                    "moduleName": "ZayPay",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:6ZayPay0A0C7OptionsV23FiatDepositInitialStateV6amountSdvg",
+                        "mangledName": "$s6ZayPay0A0C7OptionsV23FiatDepositInitialStateV6amountSdvg",
+                        "moduleName": "ZayPay",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:6ZayPay0A0C7OptionsV23FiatDepositInitialStateV6amountSdvs",
+                        "mangledName": "$s6ZayPay0A0C7OptionsV23FiatDepositInitialStateV6amountSdvs",
+                        "moduleName": "ZayPay",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:6ZayPay0A0C7OptionsV23FiatDepositInitialStateV6amountSdvM",
+                        "mangledName": "$s6ZayPay0A0C7OptionsV23FiatDepositInitialStateV6amountSdvM",
+                        "moduleName": "ZayPay",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(currency:amount:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FiatDepositInitialState",
+                        "printedName": "ZayPay.Zay.Options.FiatDepositInitialState",
+                        "usr": "s:6ZayPay0A0C7OptionsV23FiatDepositInitialStateV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:6ZayPay0A0C7OptionsV23FiatDepositInitialStateV8currency6amountAGSS_Sdtcfc",
+                    "mangledName": "$s6ZayPay0A0C7OptionsV23FiatDepositInitialStateV8currency6amountAGSS_Sdtcfc",
+                    "moduleName": "ZayPay",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "init_kind": "Designated"
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:6ZayPay0A0C7OptionsV23FiatDepositInitialStateV",
+                "mangledName": "$s6ZayPay0A0C7OptionsV23FiatDepositInitialStateV",
+                "moduleName": "ZayPay",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "StartingDepositMode",
+                "printedName": "StartingDepositMode",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "crypto",
+                    "printedName": "crypto",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZayPay.Zay.Options.StartingDepositMode.Type) -> ZayPay.Zay.Options.StartingDepositMode",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StartingDepositMode",
+                            "printedName": "ZayPay.Zay.Options.StartingDepositMode",
+                            "usr": "s:6ZayPay0A0C7OptionsV19StartingDepositModeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "ZayPay.Zay.Options.StartingDepositMode.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "StartingDepositMode",
+                                "printedName": "ZayPay.Zay.Options.StartingDepositMode",
+                                "usr": "s:6ZayPay0A0C7OptionsV19StartingDepositModeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:6ZayPay0A0C7OptionsV19StartingDepositModeO6cryptoyA2GmF",
+                    "mangledName": "$s6ZayPay0A0C7OptionsV19StartingDepositModeO6cryptoyA2GmF",
+                    "moduleName": "ZayPay"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "fiat",
+                    "printedName": "fiat",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZayPay.Zay.Options.StartingDepositMode.Type) -> (ZayPay.Zay.Options.FiatDepositInitialState?) -> ZayPay.Zay.Options.StartingDepositMode",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(ZayPay.Zay.Options.FiatDepositInitialState?) -> ZayPay.Zay.Options.StartingDepositMode",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "StartingDepositMode",
+                                "printedName": "ZayPay.Zay.Options.StartingDepositMode",
+                                "usr": "s:6ZayPay0A0C7OptionsV19StartingDepositModeO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Tuple",
+                                "printedName": "(initialState: ZayPay.Zay.Options.FiatDepositInitialState?)",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Optional",
+                                    "printedName": "ZayPay.Zay.Options.FiatDepositInitialState?",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "FiatDepositInitialState",
+                                        "printedName": "ZayPay.Zay.Options.FiatDepositInitialState",
+                                        "usr": "s:6ZayPay0A0C7OptionsV23FiatDepositInitialStateV"
+                                      }
+                                    ],
+                                    "usr": "s:Sq"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "ZayPay.Zay.Options.StartingDepositMode.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "StartingDepositMode",
+                                "printedName": "ZayPay.Zay.Options.StartingDepositMode",
+                                "usr": "s:6ZayPay0A0C7OptionsV19StartingDepositModeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:6ZayPay0A0C7OptionsV19StartingDepositModeO4fiatyAgE04FiatE12InitialStateVSg_tcAGmF",
+                    "mangledName": "$s6ZayPay0A0C7OptionsV19StartingDepositModeO4fiatyAgE04FiatE12InitialStateVSg_tcAGmF",
+                    "moduleName": "ZayPay"
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:6ZayPay0A0C7OptionsV19StartingDepositModeO",
+                "mangledName": "$s6ZayPay0A0C7OptionsV19StartingDepositModeO",
+                "moduleName": "ZayPay",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "showDepositModeSwitcher",
+                "printedName": "showDepositModeSwitcher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6ZayPay0A0C7OptionsV23showDepositModeSwitcherSbvp",
+                "mangledName": "$s6ZayPay0A0C7OptionsV23showDepositModeSwitcherSbvp",
+                "moduleName": "ZayPay",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6ZayPay0A0C7OptionsV23showDepositModeSwitcherSbvg",
+                    "mangledName": "$s6ZayPay0A0C7OptionsV23showDepositModeSwitcherSbvg",
+                    "moduleName": "ZayPay",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6ZayPay0A0C7OptionsV23showDepositModeSwitcherSbvs",
+                    "mangledName": "$s6ZayPay0A0C7OptionsV23showDepositModeSwitcherSbvs",
+                    "moduleName": "ZayPay",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6ZayPay0A0C7OptionsV23showDepositModeSwitcherSbvM",
+                    "mangledName": "$s6ZayPay0A0C7OptionsV23showDepositModeSwitcherSbvM",
+                    "moduleName": "ZayPay",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "startingDepositMode",
+                "printedName": "startingDepositMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StartingDepositMode",
+                    "printedName": "ZayPay.Zay.Options.StartingDepositMode",
+                    "usr": "s:6ZayPay0A0C7OptionsV19StartingDepositModeO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6ZayPay0A0C7OptionsV19startingDepositModeAE08StartingeF0Ovp",
+                "mangledName": "$s6ZayPay0A0C7OptionsV19startingDepositModeAE08StartingeF0Ovp",
+                "moduleName": "ZayPay",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StartingDepositMode",
+                        "printedName": "ZayPay.Zay.Options.StartingDepositMode",
+                        "usr": "s:6ZayPay0A0C7OptionsV19StartingDepositModeO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6ZayPay0A0C7OptionsV19startingDepositModeAE08StartingeF0Ovg",
+                    "mangledName": "$s6ZayPay0A0C7OptionsV19startingDepositModeAE08StartingeF0Ovg",
+                    "moduleName": "ZayPay",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StartingDepositMode",
+                        "printedName": "ZayPay.Zay.Options.StartingDepositMode",
+                        "usr": "s:6ZayPay0A0C7OptionsV19StartingDepositModeO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6ZayPay0A0C7OptionsV19startingDepositModeAE08StartingeF0Ovs",
+                    "mangledName": "$s6ZayPay0A0C7OptionsV19startingDepositModeAE08StartingeF0Ovs",
+                    "moduleName": "ZayPay",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6ZayPay0A0C7OptionsV19startingDepositModeAE08StartingeF0OvM",
+                    "mangledName": "$s6ZayPay0A0C7OptionsV19startingDepositModeAE08StartingeF0OvM",
+                    "moduleName": "ZayPay",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(showDepositModeSwitcher:startingDepositMode:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "ZayPay.Zay.Options",
+                    "usr": "s:6ZayPay0A0C7OptionsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StartingDepositMode",
+                    "printedName": "ZayPay.Zay.Options.StartingDepositMode",
+                    "usr": "s:6ZayPay0A0C7OptionsV19StartingDepositModeO"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6ZayPay0A0C7OptionsV23showDepositModeSwitcher08startingeF0AESb_AE08StartingeF0Otcfc",
+                "mangledName": "$s6ZayPay0A0C7OptionsV23showDepositModeSwitcher08startingeF0AESb_AE08StartingeF0Otcfc",
+                "moduleName": "ZayPay",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:6ZayPay0A0C7OptionsV",
+            "mangledName": "$s6ZayPay0A0C7OptionsV",
+            "moduleName": "ZayPay",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setAssetsProviderType",
+            "printedName": "setAssetsProviderType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any ZayPay.AssetsProvider.Type)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any ZayPay.AssetsProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AssetsProvider",
+                        "printedName": "ZayPay.AssetsProvider",
+                        "usr": "s:6ZayPay14AssetsProviderP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6ZayPay0A0C21setAssetsProviderTypeyyAA0dE0_pXpSgFZ",
+            "mangledName": "$s6ZayPay0A0C21setAssetsProviderTypeyyAA0dE0_pXpSgFZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launch",
+            "printedName": "launch(in:apiKey:withdrawAddress:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "ZayPay.Zay.Options",
+                "hasDefaultArg": true,
+                "usr": "s:6ZayPay0A0C7OptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6ZayPay0A0C6launch2in6apiKey15withdrawAddress7optionsySo16UIViewControllerC_S2SAC7OptionsVtFZ",
+            "mangledName": "$s6ZayPay0A0C6launch2in6apiKey15withdrawAddress7optionsySo16UIViewControllerC_S2SAC7OptionsVtFZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6ZayPay0A0C",
+        "mangledName": "$s6ZayPay0A0C",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkBase",
+        "printedName": "NetworkBase",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSTextAttachment",
+        "printedName": "NSTextAttachment",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSTextAttachment",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "7.0",
+        "objc_name": "NSTextAttachment",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 24,
+      "value": "\"images\/dislosure_arrow\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 19,
+      "value": "\"images\/highlights\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 17,
+      "value": "\"images\/qr_small\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 21,
+      "value": "\"images\/terms_of_use\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 443,
+      "length": 13,
+      "value": "\"images\/help\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 26,
+      "value": "\"images\/powered_by_stripe\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 558,
+      "length": 18,
+      "value": "\"images\/checkmark\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 612,
+      "length": 20,
+      "value": "\"images\/clock_small\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 21,
+      "value": "\"images\/wallet_small\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 19,
+      "value": "\"images\/copy_small\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 781,
+      "length": 21,
+      "value": "\"images\/location_pin\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 836,
+      "length": 18,
+      "value": "\"images\/try_again\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 16,
+      "value": "\"images\/support\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 941,
+      "length": 22,
+      "value": "\"images\/warning_small\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 996,
+      "length": 16,
+      "value": "\"images\/convert\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1049,
+      "length": 22,
+      "value": "\"images\/qr_break_mask\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1102,
+      "length": 14,
+      "value": "\"images\/share\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1177,
+      "length": 29,
+      "value": "\"images\/transfer_mode\/crypto\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1240,
+      "length": 27,
+      "value": "\"images\/transfer_mode\/fiat\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1344,
+      "length": 40,
+      "value": "\"images\/deposit_details\/minimum_deposit\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1428,
+      "length": 40,
+      "value": "\"images\/deposit_details\/maximum_deposit\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1510,
+      "length": 38,
+      "value": "\"images\/deposit_details\/exchange_rate\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1591,
+      "length": 39,
+      "value": "\"images\/deposit_details\/withdrawal_fee\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1697,
+      "length": 29,
+      "value": "\"images\/popups_icons\/failure\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1763,
+      "length": 29,
+      "value": "\"images\/popups_icons\/success\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1829,
+      "length": 29,
+      "value": "\"images\/popups_icons\/warning\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1897,
+      "length": 32,
+      "value": "\"images\/popups_icons\/qr_failure\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1967,
+      "length": 31,
+      "value": "\"images\/popups_icons\/qr_normal\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 2036,
+      "length": 30,
+      "value": "\"images\/popups_icons\/swapping\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 2105,
+      "length": 31,
+      "value": "\"images\/popups_icons\/refunding\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 2175,
+      "length": 32,
+      "value": "\"images\/popups_icons\/sand_clock\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 2251,
+      "length": 37,
+      "value": "\"images\/popups_icons\/order_completed\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 2326,
+      "length": 31,
+      "value": "\"images\/popups_icons\/sad_smile\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 2414,
+      "length": 19,
+      "value": "\"images\/faq\/step_1\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 2468,
+      "length": 19,
+      "value": "\"images\/faq\/step_2\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 2522,
+      "length": 19,
+      "value": "\"images\/faq\/step_3\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 2576,
+      "length": 19,
+      "value": "\"images\/faq\/step_4\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 2670,
+      "length": 19,
+      "value": "\"images\/back_arrow\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 2734,
+      "length": 24,
+      "value": "\"images\/checkmark_small\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 2799,
+      "length": 20,
+      "value": "\"images\/cross_small\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/CryptoDepositManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5400,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/CryptoDepositManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5566,
+      "length": 37,
+      "value": "\"$zay.pay-widget.processing-order-id\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Chain.swift",
+      "kind": "StringLiteral",
+      "offset": 522,
+      "length": 6,
+      "value": "\"icon\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Chain.swift",
+      "kind": "StringLiteral",
+      "offset": 557,
+      "length": 12,
+      "value": "\"token_icon\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Chain.swift",
+      "kind": "StringLiteral",
+      "offset": 620,
+      "length": 20,
+      "value": "\"min_deposit_amount\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Chain.swift",
+      "kind": "StringLiteral",
+      "offset": 663,
+      "length": 9,
+      "value": "\"pair_id\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/MerchantsConfigurtion.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 12,
+      "value": "\"onramp_url\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 10,
+      "value": "\"creating\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 18,
+      "value": "\"transfer_pending\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 14,
+      "value": "\"deposit_only\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 11,
+      "value": "\"cancelled\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 11,
+      "value": "\"completed\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 18,
+      "value": "\"deposit_received\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 580,
+      "length": 14,
+      "value": "\"kyc_required\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 626,
+      "length": 18,
+      "value": "\"refund_initiated\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 676,
+      "length": 18,
+      "value": "\"refund_completed\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 15,
+      "value": "\"refund_failed\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 770,
+      "length": 18,
+      "value": "\"creation_blocked\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 23,
+      "value": "\"creation_rate_limited\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 1091,
+      "length": 17,
+      "value": "\"destination_tag\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 1416,
+      "length": 12,
+      "value": "\"from_token\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 1458,
+      "length": 12,
+      "value": "\"from_chain\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 1498,
+      "length": 10,
+      "value": "\"to_token\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 1536,
+      "length": 10,
+      "value": "\"to_chain\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 2045,
+      "length": 7,
+      "value": "\"tx_id\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 2150,
+      "length": 12,
+      "value": "\"from_token\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 2192,
+      "length": 12,
+      "value": "\"from_chain\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 2232,
+      "length": 10,
+      "value": "\"to_token\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 2270,
+      "length": 10,
+      "value": "\"to_chain\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 2307,
+      "length": 9,
+      "value": "\"tx_link\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 3152,
+      "length": 18,
+      "value": "\"withdraw_address\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 3214,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 3263,
+      "length": 24,
+      "value": "\"user_confirmed_payment\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 3338,
+      "length": 20,
+      "value": "\"min_deposit_amount\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 3391,
+      "length": 20,
+      "value": "\"max_deposit_amount\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 3443,
+      "length": 18,
+      "value": "\"unique_reference\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 3491,
+      "length": 16,
+      "value": "\"withdrawal_fee\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 3538,
+      "length": 17,
+      "value": "\"deposit_address\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Order.swift",
+      "kind": "StringLiteral",
+      "offset": 3581,
+      "length": 12,
+      "value": "\"expires_at\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/OrderResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 19,
+      "value": "\"compliance_notice\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 11,
+      "value": "\"full_name\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 606,
+      "length": 6,
+      "value": "\"icon\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 17,
+      "value": "\"decimals_before\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 690,
+      "length": 16,
+      "value": "\"decimals_after\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Network\/Models\/TokensList.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 10,
+      "value": "\"to_token\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "StringLiteral",
+      "offset": 3667,
+      "length": 36,
+      "value": "\"hjHJKlHljkHJjlkjhklHhhljkHJLHJKjlk\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "StringLiteral",
+      "offset": 3784,
+      "length": 36,
+      "value": "\"https:\/\/i.ibb.co\/x8JNZScL\/USDT.png\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "StringLiteral",
+      "offset": 3851,
+      "length": 5,
+      "value": "\"AAA\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "StringLiteral",
+      "offset": 3955,
+      "length": 36,
+      "value": "\"https:\/\/i.ibb.co\/x8JNZScL\/USDT.png\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "StringLiteral",
+      "offset": 4022,
+      "length": 5,
+      "value": "\"AAA\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "StringLiteral",
+      "offset": 4116,
+      "length": 6,
+      "value": "\"USDT\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "StringLiteral",
+      "offset": 4148,
+      "length": 6,
+      "value": "\"SOME\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4183,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4230,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4276,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "StringLiteral",
+      "offset": 4329,
+      "length": 8,
+      "value": "\"1000.0\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4428,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4703,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/UIComponents\/ConvertionRateView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1226,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/UIComponents\/ConvertionRateView.swift",
+      "kind": "StringLiteral",
+      "offset": 3870,
+      "length": 6,
+      "value": "\"USDC\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/UIComponents\/ConvertionRateView.swift",
+      "kind": "StringLiteral",
+      "offset": 3894,
+      "length": 6,
+      "value": "\"SOME\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/UIComponents\/ConvertionRateView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3921,
+      "length": 6,
+      "value": "0.1224"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/UIComponents\/ConvertionRateView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3963,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/UIComponents\/ConvertionRateView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4001,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/UIComponents\/ConvertionRateView.swift",
+      "kind": "StringLiteral",
+      "offset": 4038,
+      "length": 9,
+      "value": "\"10 USDC\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/UIComponents\/DepositScreenLoadingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2001,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/UIComponents\/TransferCryptoView\/TransferCryptoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 991,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/UIComponents\/TransferCryptoView\/TransferCryptoViewDriver.swift",
+      "kind": "StringLiteral",
+      "offset": 4380,
+      "length": 31,
+      "value": "\"$zay.pay-widget.default-token\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/UIComponents\/TransferCryptoView\/TransferCryptoViewDriver.swift",
+      "kind": "StringLiteral",
+      "offset": 4584,
+      "length": 40,
+      "value": "\"$zay.pay-widget.recent-chains-by-token\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/UIComponents\/URLImage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 296,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/DepositAddress\/DepositAddressScreenDriver.swift",
+      "kind": "Array",
+      "offset": 4119,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/DepositAddress\/DepositAddressScreenDriver.swift",
+      "kind": "StringLiteral",
+      "offset": 4333,
+      "length": 32,
+      "value": "\"$zay.pay-widget.local-cooldown\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/DepositAddress\/UIComponents\/CreatingOrderView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 540,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/HowToDeposit\/HowToDepositScreenView.swift",
+      "kind": "FloatLiteral",
+      "offset": 539,
+      "length": 3,
+      "value": "6.0"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/HowToDeposit\/HowToDepositScreenView.swift",
+      "kind": "StringLiteral",
+      "offset": 8496,
+      "length": 6,
+      "value": "\"SOME\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Popups\/OrderCompletedPopup\/OrderCompletedPopupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5940,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/RootViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3167,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/RootViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3452,
+      "length": 4,
+      "value": "32.0"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/UIComponents\/BaseRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 767,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/UIComponents\/BaseRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 938,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/UIComponents\/BaseRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1096,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/UIComponents\/BaseRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1235,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/UIComponents\/CommonPopupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 424,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/UIComponents\/CommonPopupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 457,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/UIComponents\/PrimaryButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 339,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/UIComponents\/PrimaryButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 364,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Zay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1629,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/ZayDeps.swift",
+      "kind": "StringLiteral",
+      "offset": 650,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/ZayDeps.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/ZayDeps.swift",
+      "kind": "StringLiteral",
+      "offset": 2845,
+      "length": 24,
+      "value": "\"https:\/\/api-pay.zay.me\""
+    }
+  ]
+}

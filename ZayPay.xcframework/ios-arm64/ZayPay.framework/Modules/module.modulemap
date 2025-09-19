@@ -1,0 +1,4 @@
+framework module ZayPay {
+  header "ZayPay-Swift.h"
+  requires objc
+}

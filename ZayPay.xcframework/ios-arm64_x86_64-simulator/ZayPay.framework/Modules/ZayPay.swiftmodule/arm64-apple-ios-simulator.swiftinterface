@@ -1,0 +1,67 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-upcoming-feature InternalImportsByDefault -enable-experimental-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -module-name ZayPay
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+public import Swift
+public import UIKit
+public import _Concurrency
+public import _StringProcessing
+public import _SwiftConcurrencyShims
+@_Concurrency.MainActor public protocol AssetsProvider {
+  @_Concurrency.MainActor static var colorsAssetsProviderType: any ZayPay.ColorsAssetsProvider.Type { get }
+  @_Concurrency.MainActor static var uiConstantsProvider: any ZayPay.UIConstantsProvider.Type { get }
+}
+@_Concurrency.MainActor public protocol ColorsAssetsProvider {
+  @_Concurrency.MainActor static var backgroundPrimary: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var backgroundSecondary: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var backgroundTertiary: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var backgroundAttention: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var backgroundAttentionSuccess: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var backgroundAttentionFailure: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var backgroundButtonPrimary: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var backgroundButtonSecondary: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var fillPrimary: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var fillSecondary: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var fillTertiary: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var fillButtonPrimary: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var fillButtonSecondary: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var textAttention: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var textAttentionSuccess: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var textAttentionFailure: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var outline: UIKit.UIColor { get }
+  @_Concurrency.MainActor static var logo: UIKit.UIColor { get }
+}
+@_Concurrency.MainActor public protocol UIConstantsProvider {
+  @_Concurrency.MainActor static var commonButtonCornerRadius: CoreFoundation.CGFloat { get }
+}
+
+
+
+
+extension UIKit.NSTextAttachment : @unchecked @retroactive Swift.Sendable {
+}
+
+
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor open class BaseRouter {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class Zay : Swift.Sendable {
+  public struct Options : Swift.Sendable {
+    public struct FiatDepositInitialState : Swift.Sendable {
+      public var currency: Swift.String
+      public var amount: Swift.Double
+      public init(currency: Swift.String, amount: Swift.Double)
+    }
+    public enum StartingDepositMode : Swift.Sendable {
+      case crypto
+      case fiat(initialState: ZayPay.Zay.Options.FiatDepositInitialState?)
+    }
+    public var showDepositModeSwitcher: Swift.Bool
+    public var startingDepositMode: ZayPay.Zay.Options.StartingDepositMode
+    public init(showDepositModeSwitcher: Swift.Bool, startingDepositMode: ZayPay.Zay.Options.StartingDepositMode)
+  }
+  @_Concurrency.MainActor public static func setAssetsProviderType(_ assetsProviderType: (any ZayPay.AssetsProvider.Type)?)
+  @_Concurrency.MainActor public static func launch(in hostViewController: UIKit.UIViewController, apiKey: Swift.String, withdrawAddress: Swift.String, options: ZayPay.Zay.Options = .init(showDepositModeSwitcher: true, startingDepositMode: .crypto))
+  @objc deinit
+}
+extension ZayPay.BaseRouter : Swift.Sendable {}
