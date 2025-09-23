@@ -6,21 +6,25 @@
 
 ![iOS](https://img.shields.io/badge/iOS-16.0%2B-blue.svg) [![Xcode](https://img.shields.io/badge/Xcode-14.0%2B-blue.svg)](https://img.shields.io/badge/Xcode-14.1%2B-blue.svg) [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/onside-io/OnsideKit-iOS/blob/main/LICENSE)
 
-**Seamlessly convert various cryptocurrencies into SOL and send them to any Solana wallet, directly within your iOS app.**
+**Accept deposits in multiple cryptocurrencies and networks, and seamlessly deliver them to user wallets — directly within your iOS app.**
 
-Our SDK is a powerful yet simple-to-use tool for iOS developers, designed to integrate cross-chain swaps into your application. It enables your users to easily top up their Solana wallet with SOL by converting assets they hold on other blockchains like Ethereum, BNB Chain, Polygon, and more. The SDK abstracts away the underlying complexity of cross-chain bridges and DEXs, offering a single, clean Swift API to handle the entire process: from conversion to the final transfer to the destination Solana wallet.
+The **Zay Pay SDK** is a powerful yet lightweight tool for iOS developers. It lets your users top up their wallets by depositing assets they hold on other blockchains such as **Ethereum, BNB Chain, Polygon, Arbitrum, Solana, and more**.
+
+The SDK abstracts away all the complexity of cross-chain bridges, DEXs, and routing logic, exposing a single, clean Swift API that handles the full flow:
+- Accept deposits in many supported tokens/networks
+- Convert them automatically into the destination token
+- Transfer the result to the user’s wallet (e.g. a Solana wallet or another supported chain)
 
 ## Key Features
-- ⛓️ **Cross-Chain Swaps:** Convert tokens from popular networks (e.g., Ethereum, BNB Chain, Polygon) into SOL.
-- 🚀 **Simple API:** A clean and intuitive API written in pure Swift for fast and easy integration.
-- 💸 **Direct-to-Wallet:** Automatically sends the converted SOL to any specified Solana wallet, eliminating extra steps for the user.
-- 🛡️ **Secure:** Built with security best practices for handling cryptocurrency transactions in mind.
-- 🧩 **Flexible:** Supports a wide range of popular tokens for conversion (e.g., USDT, USDC, ETH).
+- ⛓️ **Cross-Chain Support**: Accept deposits from popular networks like Ethereum, BNB Chain, Polygon, Solana, Tron, and others.
+- 💸 **Direct-to-Wallet**: Deposited funds are converted and delivered automatically to the user’s wallet — no extra steps required.
+- 🚀 **Simple Swift API**: A clean and intuitive API designed for fast integration into any iOS app.
+- 🛡️ **Secure**: Follows best practices for handling cryptocurrency transactions.
 
 ## Why Use Our SDK?
--  **Save Development Time:** No need to deal with the complexities of cross-chain bridges, DEXs, or different blockchain protocols. We handle it for you.
--  **Enhance User Experience (UX):** Allow users to top up their SOL balance without ever leaving your app or relying on third-party services.
--  **Reliable:** We manage the complex blockchain interactions, providing you with a stable and predictable tool to build upon.
+- **Save Development Time**: No need to integrate bridges, DEXs, or manage blockchain protocols manually — the SDK handles it all.
+- **Better UX**: Let users deposit with the token and network they already have, while receiving funds in the token/network they need.
+- **Reliable**: Built on a stable backend that manages the complexity of cross-chain swaps and transfers.
 
 ## Installation
 You can add `ZayPay` to your project using either Swift Package Manager (SPM) or CocoaPods.
