@@ -1,12 +1,20 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.1 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-upcoming-feature InternalImportsByDefault -enable-experimental-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -module-name ZayPay
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+public import Foundation
 public import Swift
 public import UIKit
 public import _Concurrency
 public import _StringProcessing
 public import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc final public class ZayPayResources : ObjectiveC.NSObject {
+  @objc final public class var bundle: Foundation.Bundle {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_Concurrency.MainActor public protocol AssetsProvider {
   @_Concurrency.MainActor static var colorsAssetsProviderType: any ZayPay.ColorsAssetsProvider.Type { get }
   @_Concurrency.MainActor static var uiConstantsProvider: any ZayPay.UIConstantsProvider.Type { get }
@@ -62,7 +70,9 @@ extension UIKit.NSTextAttachment : @unchecked @retroactive Swift.Sendable {
     public var startingDepositMode: ZayPay.Zay.Options.StartingDepositMode
     public init(showDepositModeSwitcher: Swift.Bool, startingDepositMode: ZayPay.Zay.Options.StartingDepositMode)
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func setAssetsProviderType(_ assetsProviderType: (any ZayPay.AssetsProvider.Type)?)
+  #endif
   @_Concurrency.MainActor public static func launch(in hostViewController: UIKit.UIViewController, apiKey: Swift.String, secret: Swift.String, withdrawAddress: Swift.String, options: ZayPay.Zay.Options = .init(showDepositModeSwitcher: true, startingDepositMode: .crypto))
   @objc deinit
 }

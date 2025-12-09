@@ -4,65 +4,57 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Alamofire_Alamofire_Onside.bundle/Info.plist</key>
-		<data>
-		7Xgv0guG+8jt0K2X6UrSSvOdOww=
-		</data>
-		<key>Alamofire_Alamofire_Onside.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		ovFJMFOLMjzh8DLJKmXncj8JIgU=
-		</data>
 		<key>Assets.car</key>
 		<data>
-		xnhVB9Jjcyy8i4c76poLDxW4eLQ=
+		w9nFUtmsaMC5V62v1TkbcfwVHSY=
 		</data>
 		<key>Headers/ZayPay-Swift.h</key>
 		<data>
-		izc+48xEXpgUvUUiLrzTcXId+NM=
+		wO3+SAiNv9Mfrak3+NyRNXcHJSE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fX4vcW6Jk34TLSwklGde17++yr4=
+		DPTlWf4DgsATHC/JN9p9zFwRKYQ=
 		</data>
 		<key>Modules/ZayPay.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kFEXk/k79udCj/Kpj8RaqIaD5Bw=
+		tyGsihOy4i6pwWEe/pUvmHokAJg=
 		</data>
 		<key>Modules/ZayPay.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		COyPwtbFDu/umxbdscRJgLNgn6s=
+		Zu6BC718ET/OuxlKgFveaNsDk7M=
 		</data>
 		<key>Modules/ZayPay.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ogkfwFe7UmBFH3yNpqZiqsIVqKc=
+		jJQDfmq5XFIU1ldWE+Y7Y6+j03g=
 		</data>
 		<key>Modules/ZayPay.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		COyPwtbFDu/umxbdscRJgLNgn6s=
+		Zu6BC718ET/OuxlKgFveaNsDk7M=
 		</data>
 		<key>Modules/ZayPay.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yxy37T7PU5nircn0+zxR/M1t5vo=
+		90mvoFrE+ZDq4XHJwcuDHubYhdg=
 		</data>
 		<key>Modules/ZayPay.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kFEXk/k79udCj/Kpj8RaqIaD5Bw=
+		tyGsihOy4i6pwWEe/pUvmHokAJg=
 		</data>
 		<key>Modules/ZayPay.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LAD+//sP8M5G0R9dOapICw1UGAY=
+		fhXspEKFXtchr2Az1bW3HcQPUWk=
 		</data>
 		<key>Modules/ZayPay.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		R8EMlakVUdIXZkPNBVVoS98gntI=
+		OOJNok9Yx35YHNOKfH1ylGFswt0=
 		</data>
 		<key>Modules/ZayPay.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LAD+//sP8M5G0R9dOapICw1UGAY=
+		fhXspEKFXtchr2Az1bW3HcQPUWk=
 		</data>
 		<key>Modules/ZayPay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LnOov/MWwj4DhDg5i1de0GYmLdU=
+		xyVrW6gsSoYGJ28/CUsWJ/DX+Ps=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,121 +64,91 @@
 		<data>
 		blUQgT7KGA9YlXCXPFvQo5k6418=
 		</data>
-		<key>QRCode_QRCode_Onside.bundle/Info.plist</key>
-		<data>
-		Dxd8S0deCEbY2QyF8zmWr0JKLzE=
-		</data>
-		<key>QRCode_QRCode_Onside.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
-		</data>
-		<key>SwiftImageReadWrite_SwiftImageReadWrite_Onside.bundle/Info.plist</key>
-		<data>
-		9WqcUbfwLEJtSWzGYfheOwY5VPM=
-		</data>
-		<key>SwiftImageReadWrite_SwiftImageReadWrite_Onside.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Alamofire_Alamofire_Onside.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wZUyg0q1bNMpUiZzFquEQPgtqKhHxb3V4ZiLcEBeA3s=
-			</data>
-		</dict>
-		<key>Alamofire_Alamofire_Onside.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
-			</data>
-		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vio5pN5Eic1yD4tMqxhNuc2PEyTP0ssjkSsUMaNQMkI=
+			aLv+oW3kSpyjdV7U3YdotuY5mEEffPT4gX0+IVTiLCM=
 			</data>
 		</dict>
 		<key>Headers/ZayPay-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			smvWH2/hNxd7JQ04aWHYTzlMHQC1/hZjHWko9RggRlc=
+			uncrqwhHcGuOljmBVncOZOVzdpTyUhgltAw+k1dg/Yk=
 			</data>
 		</dict>
 		<key>Modules/ZayPay.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vpF0fS68SoupL7gtzZtCBHufqKiS99JrMn7Uz3MgHDA=
+			ZfFzi/NuhDfbQ1KRhiqf1yHIMmwU/MiDasPZ0OWfypM=
 			</data>
 		</dict>
 		<key>Modules/ZayPay.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gRY2lfXdvIQ9/E/jAo6LuW+F++TktMrzNQl6XZ8tpJs=
+			ZK1VpNdXangj7OZK9GVJo4k614zfui5JrFJtoHuGuSU=
 			</data>
 		</dict>
 		<key>Modules/ZayPay.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l2h5duoDsCPhKVpJUrtDXHtKYIt20/HjgVLP2SM1VXI=
+			SlhieP7S1ddkHslD60ub5TWapXzN41Yarv67SWBhBSw=
 			</data>
 		</dict>
 		<key>Modules/ZayPay.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gRY2lfXdvIQ9/E/jAo6LuW+F++TktMrzNQl6XZ8tpJs=
+			ZK1VpNdXangj7OZK9GVJo4k614zfui5JrFJtoHuGuSU=
 			</data>
 		</dict>
 		<key>Modules/ZayPay.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O1W5WZznoxJb/gXG4EYfIY7aMGZc/s0ORwh5LmcenUU=
+			8SmfdXhByppmbZ7M0Nf1ww3FvUyG6pd3+NfcwDdIVUI=
 			</data>
 		</dict>
 		<key>Modules/ZayPay.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vpF0fS68SoupL7gtzZtCBHufqKiS99JrMn7Uz3MgHDA=
+			ZfFzi/NuhDfbQ1KRhiqf1yHIMmwU/MiDasPZ0OWfypM=
 			</data>
 		</dict>
 		<key>Modules/ZayPay.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X5yCi3fevh9MDJDsiZ31xbOodgOJLgfH0jENNQIHviQ=
+			0/sKGhdEQsxfzP2UdACGMK2lS2RXFs/PFhgNxRIWiXs=
 			</data>
 		</dict>
 		<key>Modules/ZayPay.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lj4/bNHxRWDc8KyE0TRVt5prFQhVKzCPBDUI3Thuox8=
+			vpqxE3mbE+7ZXc+nyA99Znyx8op9NtSwmOeNzlehM8g=
 			</data>
 		</dict>
 		<key>Modules/ZayPay.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X5yCi3fevh9MDJDsiZ31xbOodgOJLgfH0jENNQIHviQ=
+			0/sKGhdEQsxfzP2UdACGMK2lS2RXFs/PFhgNxRIWiXs=
 			</data>
 		</dict>
 		<key>Modules/ZayPay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yMEZJ/ExsrPGcXF6cA1e1D5FwAAa5uEZdVbo8QtFF6E=
+			ykalC1vzxtm1gTUoJLvz1YKS8OQ0roR9VriAzsAmtso=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -201,34 +163,6 @@
 			<key>hash2</key>
 			<data>
 			AiYARnIAGn5r2sB+dtMQDaN/4XHqnkJumxwoGQaUzgY=
-			</data>
-		</dict>
-		<key>QRCode_QRCode_Onside.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZrTYDbV2DZOV43hjNdCqWizpYoba4nx/2jp90QfUMFg=
-			</data>
-		</dict>
-		<key>QRCode_QRCode_Onside.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
-			</data>
-		</dict>
-		<key>SwiftImageReadWrite_SwiftImageReadWrite_Onside.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fLm916QuhIUR+TgA5GyAP0mwhQMDw9xQO6d/jAhxNeQ=
-			</data>
-		</dict>
-		<key>SwiftImageReadWrite_SwiftImageReadWrite_Onside.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
 			</data>
 		</dict>
 	</dict>

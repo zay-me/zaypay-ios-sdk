@@ -11,7 +11,168 @@
         "declKind": "Import",
         "moduleName": "ZayPay",
         "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZayPayResources",
+        "printedName": "ZayPayResources",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ZayPay@objc(cs)ZayPayResources(cpy)bundle",
+            "mangledName": "$s6ZayPay0aB9ResourcesC6bundleSo8NSBundleCvpZ",
+            "moduleName": "ZayPay",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ZayPay@objc(cs)ZayPayResources(cm)bundle",
+                "mangledName": "$s6ZayPay0aB9ResourcesC6bundleSo8NSBundleCvgZ",
+                "moduleName": "ZayPay",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZayPayResources",
+                "printedName": "ZayPay.ZayPayResources",
+                "usr": "c:@M@ZayPay@objc(cs)ZayPayResources"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ZayPay@objc(cs)ZayPayResources(im)init",
+            "mangledName": "$s6ZayPay0aB9ResourcesCACycfc",
+            "moduleName": "ZayPay",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ZayPay@objc(cs)ZayPayResources",
+        "mangledName": "$s6ZayPay0aB9ResourcesC",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
           "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -1591,6 +1752,23 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZayPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Toolbox",
+        "printedName": "Toolbox",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2594,6 +2772,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZayPay"
+      },
+      {
+        "kind": "Import",
         "name": "Toolbox",
         "printedName": "Toolbox",
         "declKind": "Import",
@@ -2971,6 +3156,13 @@
                     "printedName": "Sendable",
                     "usr": "s:s8SendableP",
                     "mangledName": "$ss8SendableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "SendableMetatype",
+                    "printedName": "SendableMetatype",
+                    "usr": "s:s16SendableMetatypeP",
+                    "mangledName": "$ss16SendableMetatypeP"
                   }
                 ]
               },
@@ -3110,6 +3302,13 @@
                     "printedName": "Sendable",
                     "usr": "s:s8SendableP",
                     "mangledName": "$ss8SendableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "SendableMetatype",
+                    "printedName": "SendableMetatype",
+                    "usr": "s:s16SendableMetatypeP",
+                    "mangledName": "$ss16SendableMetatypeP"
                   }
                 ]
               },
@@ -3346,6 +3545,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -3480,6 +3686,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -3599,6 +3812,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
@@ -3728,161 +3948,168 @@
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 1177,
+      "offset": 1147,
+      "length": 14,
+      "value": "\"images\/globe\""
+    },
+    {
+      "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
+      "kind": "StringLiteral",
+      "offset": 1222,
       "length": 29,
       "value": "\"images\/transfer_mode\/crypto\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 1240,
+      "offset": 1285,
       "length": 27,
       "value": "\"images\/transfer_mode\/fiat\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 1344,
+      "offset": 1389,
       "length": 40,
       "value": "\"images\/deposit_details\/minimum_deposit\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 1428,
+      "offset": 1473,
       "length": 40,
       "value": "\"images\/deposit_details\/maximum_deposit\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 1510,
+      "offset": 1555,
       "length": 38,
       "value": "\"images\/deposit_details\/exchange_rate\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 1591,
+      "offset": 1636,
       "length": 39,
       "value": "\"images\/deposit_details\/withdrawal_fee\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 1697,
+      "offset": 1742,
       "length": 29,
       "value": "\"images\/popups_icons\/failure\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 1763,
+      "offset": 1808,
       "length": 29,
       "value": "\"images\/popups_icons\/success\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 1829,
+      "offset": 1874,
       "length": 29,
       "value": "\"images\/popups_icons\/warning\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 1897,
+      "offset": 1942,
       "length": 32,
       "value": "\"images\/popups_icons\/qr_failure\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 1967,
+      "offset": 2012,
       "length": 31,
       "value": "\"images\/popups_icons\/qr_normal\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 2036,
+      "offset": 2081,
       "length": 30,
       "value": "\"images\/popups_icons\/swapping\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 2105,
+      "offset": 2150,
       "length": 31,
       "value": "\"images\/popups_icons\/refunding\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 2175,
+      "offset": 2220,
       "length": 32,
       "value": "\"images\/popups_icons\/sand_clock\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 2251,
+      "offset": 2296,
       "length": 37,
       "value": "\"images\/popups_icons\/order_completed\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 2326,
+      "offset": 2371,
       "length": 31,
       "value": "\"images\/popups_icons\/sad_smile\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 2414,
+      "offset": 2459,
       "length": 19,
       "value": "\"images\/faq\/step_1\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 2468,
+      "offset": 2513,
       "length": 19,
       "value": "\"images\/faq\/step_2\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 2522,
+      "offset": 2567,
       "length": 19,
       "value": "\"images\/faq\/step_3\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 2576,
+      "offset": 2621,
       "length": 19,
       "value": "\"images\/faq\/step_4\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 2670,
+      "offset": 2715,
       "length": 19,
       "value": "\"images\/back_arrow\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 2734,
+      "offset": 2779,
       "length": 24,
       "value": "\"images\/checkmark_small\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Assets\/Images.swift",
       "kind": "StringLiteral",
-      "offset": 2799,
+      "offset": 2844,
       "length": 20,
       "value": "\"images\/cross_small\""
     },
@@ -4204,91 +4431,91 @@
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 3667,
+      "offset": 3856,
       "length": 36,
       "value": "\"hjHJKlHljkHJjlkjhklHhhljkHJLHJKjlk\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 3784,
+      "offset": 3973,
       "length": 36,
       "value": "\"https:\/\/i.ibb.co\/x8JNZScL\/USDT.png\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 3851,
+      "offset": 4040,
       "length": 5,
       "value": "\"AAA\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 3955,
+      "offset": 4144,
       "length": 36,
       "value": "\"https:\/\/i.ibb.co\/x8JNZScL\/USDT.png\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 4022,
+      "offset": 4211,
       "length": 5,
       "value": "\"AAA\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 4116,
+      "offset": 4305,
       "length": 6,
       "value": "\"USDT\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 4148,
+      "offset": 4337,
       "length": 6,
       "value": "\"SOME\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "FloatLiteral",
-      "offset": 4183,
+      "offset": 4372,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4230,
+      "offset": 4419,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4276,
+      "offset": 4465,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 4329,
+      "offset": 4518,
       "length": 8,
       "value": "\"1000.0\""
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4428,
+      "offset": 4617,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sanllier\/Projects\/Onside-iOS\/Targets\/ZayPay\/Sources\/Screens\/Deposit\/DepositScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4703,
+      "offset": 4892,
       "length": 4,
       "value": "true"
     },
